@@ -9,6 +9,7 @@ import CreatePost from './pages/CreatePost';
 import AdminDashboard from './pages/AdminDashboard';
 import TeacherDashboard from './pages/TeacherDashboard';
 import GuardianDashboard from './pages/GuardianDashboard';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/tuition" element={<Tuition />} />
         <Route path="/create-post" element={<CreatePost />} />
+
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/dashboard_a" element={<AdminDashboard />} />
         <Route path="/dashboard_t" element={<TeacherDashboard />} />
         <Route path="/dashboard_g" element={<GuardianDashboard />} />
